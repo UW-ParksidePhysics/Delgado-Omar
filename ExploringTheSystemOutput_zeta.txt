@@ -1,0 +1,270 @@
+Last login: Tue Feb 11 14:30:27 on ttys002
+maclab-124:~ delga017$ cd
+maclab-124:~ delga017$ cd downloads
+maclab-124:downloads delga017$ ls
+Ben Bazzett_Omar Delgado.txt
+Shotts2013_1-TheLinuxCommandLine.pdf
+Shotts2013_2-Navigation_TheLinuxCommandLine.pdf
+Shotts2013_3-ExploringTheSystem_TheLinuxCommandLine.pdf
+git-cheat-sheet-education.pdf
+maclab-124:downloads delga017$ cd
+maclab-124:~ delga017$ cd downloads
+maclab-124:downloads delga017$ ls
+Ben Bazzett_Omar Delgado.txt				Shotts2013_3-ExploringTheSystem_TheLinuxCommandLine.pdf
+Shotts2013_1-TheLinuxCommandLine.pdf			git-cheat-sheet-education.pdf
+Shotts2013_2-Navigation_TheLinuxCommandLine.pdf
+maclab-124:downloads delga017$ mv Ben\ Bazzett_Omar\ Delgado.txt ~/PycharmProjects/Delgado-Omar/whatistheshell_zeta
+maclab-124:downloads delga017$ cd
+maclab-124:~ delga017$ cd PycharmProjects
+maclab-124:PycharmProjects delga017$ cd Delgado-Omar
+maclab-124:Delgado-Omar delga017$ cd PycharmProjects
+-bash: cd: PycharmProjects: No such file or directory
+maclab-124:Delgado-Omar delga017$ cd
+maclab-124:~ delga017$ cd PycharmProjects
+maclab-124:PycharmProjects delga017$ ls
+Delgado-Omar
+maclab-124:PycharmProjects delga017$ cd Delgado-Omar
+maclab-124:Delgado-Omar delga017$ ls
+whatistheshell_zeta
+maclab-124:Delgado-Omar delga017$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.idea/
+	whatistheshell_zeta
+
+nothing added to commit but untracked files present (use "git add" to track)
+maclab-124:Delgado-Omar delga017$ git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+	.idea/
+	whatistheshell_zeta
+
+nothing added to commit but untracked files present
+maclab-124:Delgado-Omar delga017$ cd
+maclab-124:~ delga017$ cd PycharmProjects
+maclab-124:PycharmProjects delga017$ ls
+Delgado-Omar
+maclab-124:PycharmProjects delga017$ cd Delgado-Omar
+maclab-124:Delgado-Omar delga017$ ls
+whatistheshell_zeta
+maclab-124:Delgado-Omar delga017$ git add whatistheshell_zeta
+maclab-124:Delgado-Omar delga017$ git commit whatistheshell_zeta
+[master (root-commit) f6b4508] added whatistheshell_zeta
+ Committer: Delgado <delga017@maclab-124.uwp.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 276 insertions(+)
+ create mode 100644 whatistheshell_zeta
+maclab-124:Delgado-Omar delga017$ git push
+Username for 'https://github.com': omardelgado20
+Password for 'https://omardelgado20@github.com': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 4.46 KiB | 4.46 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/UW-ParksidePhysics/Delgado-Omar.git
+ * [new branch]      master -> master
+maclab-124:Delgado-Omar delga017$ clear
+
+
+
+maclab-124:Delgado-Omar delga017$ ls
+whatistheshell_zeta
+maclab-124:Delgado-Omar delga017$ ls /usr
+bin		lib		libexec		local		sbin		share		standalone
+maclab-124:Delgado-Omar delga017$ ls ~ /usr
+/Users/delga017:
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+Documents	Library		Music		Public
+
+/usr:
+bin		lib		libexec		local		sbin		share		standalone
+maclab-124:Delgado-Omar delga017$ ls -l
+total 24
+-rw-r--r--@ 1 delga017  UWP\Domain Users  10849 Feb 11 14:37 whatistheshell_zeta
+maclab-124:Delgado-Omar delga017$ ls -lt
+total 24
+-rw-r--r--@ 1 delga017  UWP\Domain Users  10849 Feb 11 14:37 whatistheshell_zeta
+maclab-124:Delgado-Omar delga017$ ls -lt - -reverse
+ls: -: No such file or directory
+ls: -reverse: No such file or directory
+maclab-124:Delgado-Omar delga017$ ls -lt --reverse
+ls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+maclab-124:Delgado-Omar delga017$ cd
+maclab-124:~ delga017$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+maclab-124:~ delga017$ ls
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+Documents	Library		Music		Public
+maclab-124:~ delga017$ ls /usr
+bin		lib		libexec		local		sbin		share		standalone
+maclab-124:~ delga017$ ls ~ /user
+ls: /user: No such file or directory
+/Users/delga017:
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+Documents	Library		Music		Public
+maclab-124:~ delga017$ ls -l
+total 0
+drwx------+  5 delga017  UWP\Domain Users   160 Feb 11 14:30 Desktop
+drwx------+  5 delga017  UWP\Domain Users   160 Feb  6 15:06 Documents
+drwx------+  7 delga017  UWP\Domain Users   224 Feb 11 14:56 Downloads
+drwx------@ 60 delga017  UWP\Domain Users  1920 Feb 11 14:29 Library
+drwx------+  3 delga017  UWP\Domain Users    96 Feb  6 13:59 Movies
+drwx------+  3 delga017  UWP\Domain Users    96 Feb  6 13:59 Music
+drwx------+  3 delga017  UWP\Domain Users    96 Feb  6 13:59 Pictures
+drwxr-xr-x+  4 delga017  UWP\Domain Users   128 Feb  6 13:59 Public
+drwxr-xr-x   3 delga017  UWP\Domain Users    96 Feb  6 14:34 PycharmProjects
+maclab-124:~ delga017$ ls -lt
+total 0
+drwx------+  7 delga017  UWP\Domain Users   224 Feb 11 14:56 Downloads
+drwx------+  5 delga017  UWP\Domain Users   160 Feb 11 14:30 Desktop
+drwx------@ 60 delga017  UWP\Domain Users  1920 Feb 11 14:29 Library
+drwx------+  5 delga017  UWP\Domain Users   160 Feb  6 15:06 Documents
+drwxr-xr-x   3 delga017  UWP\Domain Users    96 Feb  6 14:34 PycharmProjects
+drwx------+  3 delga017  UWP\Domain Users    96 Feb  6 13:59 Movies
+drwx------+  3 delga017  UWP\Domain Users    96 Feb  6 13:59 Music
+drwx------+  3 delga017  UWP\Domain Users    96 Feb  6 13:59 Pictures
+drwxr-xr-x+  4 delga017  UWP\Domain Users   128 Feb  6 13:59 Public
+maclab-124:~ delga017$ ls -lt --reverse
+ls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+maclab-124:~ delga017$ less /etc/passwd
+maclab-124:~ delga017$ 
+maclab-124:~ delga017$ 
+maclab-124:~ delga017$ cd PycharmProjects
+maclab-124:PycharmProjects delga017$ cd Delgado-Omar
+maclab-124:Delgado-Omar delga017$ ls
+whatistheshell_zeta
+maclab-124:Delgado-Omar delga017$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

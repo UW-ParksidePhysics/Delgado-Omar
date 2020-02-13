@@ -1,0 +1,256 @@
+Last login: Thu Feb 13 14:15:34 on ttys000
+maclab-124:~ delga017$ cp -u *.html directory
+cp: illegal option -- u
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-124:~ delga017$ mkdir dir1
+maclab-124:~ delga017$ cp -u *.html dir1
+cp: illegal option -- u
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-124:~ delga017$ cp dir1
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-124:~ delga017$ pwd
+/Users/delga017
+maclab-124:~ delga017$ cd documents
+maclab-124:documents delga017$ cp documents
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-124:documents delga017$ cp documents downloads
+cp: documents: No such file or directory
+maclab-124:documents delga017$ cp Documents Downloads
+cp: Documents: No such file or directory
+maclab-124:documents delga017$ cd
+maclab-124:~ delga017$ cp Documents Downloads
+cp: Documents is a directory (not copied).
+maclab-124:~ delga017$ cp Downloads Documents
+cp: Downloads is a directory (not copied).
+maclab-124:~ delga017$ cd Documents
+maclab-124:Documents delga017$ cp PHYS241Spring2020Syllabus.pdf Documents
+cp: PHYS241Spring2020Syllabus.pdf: No such file or directory
+maclab-124:Documents delga017$ cd
+maclab-124:~ delga017$ cd Downloads
+maclab-124:Downloads delga017$ cp PHYS241Spring2020Syllabus.pdf Documents
+maclab-124:Downloads delga017$ cd
+maclab-124:~ delga017$ cd Documents
+maclab-124:Documents delga017$ ls
+Omar Delgado - Unix 1.txt
+maclab-124:Documents delga017$ cd
+maclab-124:~ delga017$ cd Downloads
+maclab-124:Downloads delga017$ mdir dir1
+-bash: mdir: command not found
+maclab-124:Downloads delga017$ mkdir dir1
+maclab-124:Downloads delga017$ cp PHYS241Spring2020Syllabus.pdf Documents
+maclab-124:Downloads delga017$ cd
+maclab-124:~ delga017$ cd Documents
+maclab-124:Documents delga017$ ls
+Omar Delgado - Unix 1.txt
+maclab-124:Documents delga017$ mkdir dir1
+maclab-124:Documents delga017$ cd
+maclab-124:~ delga017$ cd Downloads
+maclab-124:Downloads delga017$ cp PHYS241Spring2020Syllabus.pdf Documents
+maclab-124:Downloads delga017$ cd
+maclab-124:~ delga017$ cd Documents
+maclab-124:Documents delga017$ ls
+Omar Delgado - Unix 1.txt	dir1
+maclab-124:Documents delga017$ cd dir1
+maclab-124:dir1 delga017$ ls
+maclab-124:dir1 delga017$ cd
+maclab-124:~ delga017$ cd Downloads
+maclab-124:Downloads delga017$ cp PHYS241Spring2020Syllabus.pdf dir1
+maclab-124:Downloads delga017$ cd dir1
+maclab-124:dir1 delga017$ ls
+PHYS241Spring2020Syllabus.pdf
+maclab-124:dir1 delga017$ cd Downloads
+-bash: cd: Downloads: No such file or directory
+maclab-124:dir1 delga017$ cd
+maclab-124:~ delga017$ cd Downloads
+maclab-124:Downloads delga017$ mv git-cheat-sheet-education.pdf dir1
+maclab-124:Downloads delga017$ cd dir1
+maclab-124:dir1 delga017$ ls
+PHYS241Spring2020Syllabus.pdf	git-cheat-sheet-education.pdf
+maclab-124:dir1 delga017$ cd documents
+-bash: cd: documents: No such file or directory
+maclab-124:dir1 delga017$ cd
+maclab-124:~ delga017$ cd Documents
+maclab-124:Documents delga017$ dir1
+-bash: dir1: command not found
+maclab-124:Documents delga017$ cd dir1
+maclab-124:dir1 delga017$ ls
+maclab-124:dir1 delga017$ cd 
+maclab-124:~ delga017$ cd Downloads 
+maclab-124:Downloads delga017$ cd dir1
+maclab-124:dir1 delga017$ rm PHYS241Spring2020Syllabus.pdf
+maclab-124:dir1 delga017$ ls
+git-cheat-sheet-education.pdf
+maclab-124:dir1 delga017$ ln git-cheat-sheet-education.pdf link
+maclab-124:dir1 delga017$ cd
+maclab-124:~ delga017$ clear
+
+maclab-124:~ delga017$ 
+maclab-124:~ delga017$ mkdir playground
+maclab-124:~ delga017$ cd playground
+maclab-124:playground delga017$ mkdir dir1 dir1
+mkdir: dir1: File exists
+maclab-124:playground delga017$ ls
+dir1
+maclab-124:playground delga017$ mkdir dir2
+maclab-124:playground delga017$ ls
+dir1	dir2
+maclab-124:playground delga017$ cp /etc/passwd
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-124:playground delga017$ ls -l
+total 0
+drwxr-xr-x  2 delga017  UWP\Domain Users  64 Feb 13 14:47 dir1
+drwxr-xr-x  2 delga017  UWP\Domain Users  64 Feb 13 14:47 dir2
+maclab-124:playground delga017$ cp /etc/passwd .
+maclab-124:playground delga017$ cd
+maclab-124:~ delga017$ cd Downloads
+maclab-124:Downloads delga017$ cd
+maclab-124:~ delga017$ cp Downloads playground
+cp: Downloads is a directory (not copied).
+maclab-124:~ delga017$ cp Downloads/dir1/ playground
+cp: Downloads/dir1/ is a directory (not copied).
+maclab-124:~ delga017$ cd Downloads
+maclab-124:Downloads delga017$ ls
+Documents
+PHYS241Spring2020Syllabus.pdf
+Shotts2013_1-TheLinuxCommandLine.pdf
+Shotts2013_2-Navigation_TheLinuxCommandLine.pdf
+Shotts2013_3-ExploringTheSystem_TheLinuxCommandLine.pdf
+Shotts2013_4-ManipulatingFilesAndDirectories_TheLinuxCommandLine.pdf
+dir1
+maclab-124:Downloads delga017$ cp PHYS241Spring2020Syllabus.pdf playground
+maclab-124:Downloads delga017$ cd
+maclab-124:~ delga017$ cd playground
+maclab-124:playground delga017$ ls
+dir1	dir2	passwd
+maclab-124:playground delga017$ cp /etc/passwd
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-124:playground delga017$ ls -l
+total 16
+drwxr-xr-x  2 delga017  UWP\Domain Users    64 Feb 13 14:47 dir1
+drwxr-xr-x  2 delga017  UWP\Domain Users    64 Feb 13 14:47 dir2
+-rw-r--r--  1 delga017  UWP\Domain Users  6804 Feb 13 14:52 passwd
+maclab-124:playground delga017$ cp -v /etc/passwd
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-124:playground delga017$ cp -i /etc/passwd
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-124:playground delga017$ mv passwd fun
+maclab-124:playground delga017$ mv fun dir1
+maclab-124:playground delga017$ cd dir1
+maclab-124:dir1 delga017$ ls
+fun
+maclab-124:dir1 delga017$ cd
+maclab-124:~ delga017$ cd playground
+maclab-124:playground delga017$ mv dir1/fun dir2
+maclab-124:playground delga017$ cd dir2
+maclab-124:dir2 delga017$ ls
+fun
+maclab-124:dir2 delga017$ cd 
+maclab-124:~ delga017$ cd playground
+maclab-124:playground delga017$ mv dir2/fun
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+maclab-124:playground delga017$ cd dir1
+maclab-124:dir1 delga017$ ls
+maclab-124:dir1 delga017$ cd 
+maclab-124:~ delga017$ cd playground
+maclab-124:playground delga017$ mv dir2/fun
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+maclab-124:playground delga017$ mv fun dir1
+mv: rename fun to dir1/fun: No such file or directory
+maclab-124:playground delga017$ mv dir2/fun dir1
+maclab-124:playground delga017$ cd dir1
+maclab-124:dir1 delga017$ ls
+fun
+maclab-124:dir1 delga017$ cd
+maclab-124:~ delga017$ cd playground
+maclab-124:playground delga017$ mv dir1 dir2
+maclab-124:playground delga017$ ;s -l dir2
+-bash: syntax error near unexpected token `;'
+maclab-124:playground delga017$ ls -l dir2
+total 0
+drwxr-xr-x  3 delga017  UWP\Domain Users  96 Feb 13 15:03 dir1
+maclab-124:playground delga017$ cd dir2
+maclab-124:dir2 delga017$ ls
+dir1
+maclab-124:dir2 delga017$ cd
+maclab-124:~ delga017$ cd playground
+maclab-124:playground delga017$ mv dir2/dir1 .
+maclab-124:playground delga017$ mv dir1/fun .
+maclab-124:playground delga017$ ls
+dir1	dir2	fun
+maclab-124:playground delga017$ ln fun fun-hard
+maclab-124:playground delga017$ ln fun dir1/fun-hard
+maclab-124:playground delga017$ ln fun dir2/fun-hard
+maclab-124:playground delga017$ ls -l
+total 32
+drwxr-xr-x  3 delga017  UWP\Domain Users    96 Feb 13 15:10 dir1
+drwxr-xr-x  3 delga017  UWP\Domain Users    96 Feb 13 15:10 dir2
+-rw-r--r--  4 delga017  UWP\Domain Users  6804 Feb 13 14:52 fun
+-rw-r--r--  4 delga017  UWP\Domain Users  6804 Feb 13 14:52 fun-hard
+maclab-124:playground delga017$ ls -li
+total 32
+4870611 drwxr-xr-x  3 delga017  UWP\Domain Users    96 Feb 13 15:10 dir1
+4870612 drwxr-xr-x  3 delga017  UWP\Domain Users    96 Feb 13 15:10 dir2
+4870631 -rw-r--r--  4 delga017  UWP\Domain Users  6804 Feb 13 14:52 fun
+4870631 -rw-r--r--  4 delga017  UWP\Domain Users  6804 Feb 13 14:52 fun-hard
+maclab-124:playground delga017$ ln -s fun fun-sym
+maclab-124:playground delga017$ ln -s ../fun dir1/fun-sym
+maclab-124:playground delga017$ ln -s ../fun dir2/fun-sym
+maclab-124:playground delga017$ ls -1 dir1
+fun-hard
+fun-sym
+maclab-124:playground delga017$ ln -s dir1 dir1-sym
+maclab-124:playground delga017$ ls -l
+total 32
+drwxr-xr-x  4 delga017  UWP\Domain Users   128 Feb 13 15:12 dir1
+lrwxr-xr-x  1 delga017  UWP\Domain Users     4 Feb 13 15:13 dir1-sym -> dir1
+drwxr-xr-x  4 delga017  UWP\Domain Users   128 Feb 13 15:12 dir2
+-rw-r--r--  4 delga017  UWP\Domain Users  6804 Feb 13 14:52 fun
+-rw-r--r--  4 delga017  UWP\Domain Users  6804 Feb 13 14:52 fun-hard
+lrwxr-xr-x  1 delga017  UWP\Domain Users     3 Feb 13 15:11 fun-sym -> fun
+maclab-124:playground delga017$ rm fun-hard
+maclab-124:playground delga017$ ls -l
+total 16
+drwxr-xr-x  4 delga017  UWP\Domain Users   128 Feb 13 15:12 dir1
+lrwxr-xr-x  1 delga017  UWP\Domain Users     4 Feb 13 15:13 dir1-sym -> dir1
+drwxr-xr-x  4 delga017  UWP\Domain Users   128 Feb 13 15:12 dir2
+-rw-r--r--  3 delga017  UWP\Domain Users  6804 Feb 13 14:52 fun
+lrwxr-xr-x  1 delga017  UWP\Domain Users     3 Feb 13 15:11 fun-sym -> fun
+maclab-124:playground delga017$ rm -i fun
+remove fun? 
+maclab-124:playground delga017$ ls -l
+total 16
+drwxr-xr-x  4 delga017  UWP\Domain Users   128 Feb 13 15:12 dir1
+lrwxr-xr-x  1 delga017  UWP\Domain Users     4 Feb 13 15:13 dir1-sym -> dir1
+drwxr-xr-x  4 delga017  UWP\Domain Users   128 Feb 13 15:12 dir2
+-rw-r--r--  3 delga017  UWP\Domain Users  6804 Feb 13 14:52 fun
+lrwxr-xr-x  1 delga017  UWP\Domain Users     3 Feb 13 15:11 fun-sym -> fun
+maclab-124:playground delga017$ less fun-sym
+maclab-124:playground delga017$ rm fun-sym
+maclab-124:playground delga017$ ls -l
+total 16
+drwxr-xr-x  4 delga017  UWP\Domain Users   128 Feb 13 15:12 dir1
+lrwxr-xr-x  1 delga017  UWP\Domain Users     4 Feb 13 15:13 dir1-sym -> dir1
+drwxr-xr-x  4 delga017  UWP\Domain Users   128 Feb 13 15:12 dir2
+-rw-r--r--  3 delga017  UWP\Domain Users  6804 Feb 13 14:52 fun
+maclab-124:playground delga017$ rm dir1-sym
+maclab-124:playground delga017$ ls -l
+total 16
+drwxr-xr-x  4 delga017  UWP\Domain Users   128 Feb 13 15:12 dir1
+drwxr-xr-x  4 delga017  UWP\Domain Users   128 Feb 13 15:12 dir2
+-rw-r--r--  3 delga017  UWP\Domain Users  6804 Feb 13 14:52 fun
+maclab-124:playground delga017$ cd
+maclab-124:~ delga017$ rm -r playground
+maclab-124:~ delga017$ ls
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+Documents	Library		Music		Public		dir1
+maclab-124:~ delga017$ 

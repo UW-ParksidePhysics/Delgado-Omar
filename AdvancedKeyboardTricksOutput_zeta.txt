@@ -1,0 +1,39 @@
+maclab-123:~ huber021$ ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public
+maclab-123:~ huber021$ ls l
+ls: l: No such file or directory
+maclab-123:~ huber021$ ls ls-output.txt
+ls: ls-output.txt: No such file or directory
+maclab-123:~ huber021$ ls /usr/bin > ls-output.txt
+maclab-123:~ huber021$ ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		ls-output.txt
+maclab-123:~ huber021$ ls l
+ls: l: No such file or directory
+maclab-123:~ huber021$ ls ls-output.txt 
+ls-output.txt
+maclab-123:~ huber021$ ls D
+ls: D: No such file or directory
+maclab-123:~ huber021$ ls D
+Desktop/   Documents/ Downloads/ 
+maclab-123:~ huber021$ ls Do
+ls: Do: No such file or directory
+maclab-123:~ huber021$ ls Do
+Documents/ Downloads/ 
+maclab-123:~ huber021$ ls Documents/
+maclab-123:~ huber021$ hisory | less
+-bash: hisory: command not found
+maclab-123:~ huber021$ history | grep /usr/bin
+    6  ls /usr/bin > ls-output.txt
+   14  history | grep /usr/bin
+maclab-123:~ huber021$ !88
+-bash: !88: event not found
+maclab-123:~ huber021$ ls /usr/bin > ls-output.txt
+maclab-123:~ huber021$ ls -l /usr/bin > ls-output.txt
+maclab-123:~ huber021$ exit
+logout
+Saving session...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...none found.
+
+[Process completed]

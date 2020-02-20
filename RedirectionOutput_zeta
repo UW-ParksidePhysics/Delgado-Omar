@@ -1,0 +1,86 @@
+Last login: Thu Feb 20 14:36:57 on ttys000
+maclab-85:~ delga017$ ls -l /usr/bin > ls-output.txt
+maclab-85:~ delga017$ ls -l ls-output.txt
+-rw-r--r--  1 delga017  UWP\Domain Users  64026 Feb 20 15:06 ls-output.txt
+maclab-85:~ delga017$ less ls-output.txt 
+maclab-85:~ delga017$ ls -l /bin/usr > ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-85:~ delga017$ ls -l ls-output.txt 
+-rw-r--r--  1 delga017  UWP\Domain Users  0 Feb 20 15:08 ls-output.txt
+maclab-85:~ delga017$ > ls-output.txt 
+maclab-85:~ delga017$ ls -l /usr/bin >> ls-output.txt 
+maclab-85:~ delga017$ ls -l /usr/bin >> ls-output.txt
+maclab-85:~ delga017$ ls -l /usr/bin >> ls-output.txt
+maclab-85:~ delga017$ ls -l /usr/bin >> ls-output.txt
+maclab-85:~ delga017$ ls -l ls-output.txt
+-rw-r--r--  1 delga017  UWP\Domain Users  256104 Feb 20 15:09 ls-output.txt
+maclab-85:~ delga017$ ls -l /bin/usr 2> ls-error.txt
+maclab-85:~ delga017$ ls -l /bin/usr > ls-output.txt 2>&1
+maclab-85:~ delga017$ ls -l /bin/usr &>  ls-output.txt
+maclab-85:~ delga017$ ls -l /bin/usr &>>  ls-output.txt
+-bash: syntax error near unexpected token `>'
+maclab-85:~ delga017$ ls -l /bin/usr 2> /dev/null
+maclab-85:~ delga017$ cat ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-85:~ delga017$ cat
+The quick brown fox jumped over the lazy dog.
+The quick brown fox jumped over the lazy dog.
+    
+
+
+
+maclab-85:~ delga017$ cat
+maclab-85:~ delga017$ cat
+The quick brown fox jumped over the lazy dog.
+The quick brown fox jumped over the lazy dog.
+maclab-85:~ delga017$ cat > lazy_dog.txt
+The quick brown fox jumped over the lazy dog.
+maclab-85:~ delga017$ cat lazy_dog.txt 
+The quick brown fox jumped over the lazy dog.
+maclab-85:~ delga017$ ls -l /usr/bin | less
+maclab-85:~ delga017$ ls /bin /usr/bin | sort | less
+maclab-85:~ delga017$ ls /bin /usr/bin | sort | uniq | less
+maclab-85:~ delga017$ ls /bin /usr/bin | sort | uniq -d  | less
+maclab-85:~ delga017$ wc ls-output.txt 
+       1       7      40 ls-output.txt
+maclab-85:~ delga017$ ls /bin /usr/bin | sort | uniq | wc -l
+    1007
+maclab-85:~ delga017$ ls /bin /usr/bin | sort | uniq | grep zip
+bunzip2
+bzip2
+bzip2recover
+funzip
+gunzip
+gzip
+unzip
+unzipsfx
+zip
+zipcloak
+zipdetails
+zipdetails5.18
+zipgrep
+zipinfo
+zipnote
+zipsplit
+maclab-85:~ delga017$ head -n 5 ls-output.txt 
+ls: /bin/usr: No such file or directory
+maclab-85:~ delga017$ tail -n 5 ls-output.txt 
+ls: /bin/usr: No such file or directory
+maclab-85:~ delga017$ ls /usr/bin | tail -n 5
+zipsplit
+zless
+zmore
+znew
+zprint
+maclab-85:~ delga017$ tail -f /var/log/messages
+tail: /var/log/messages: No such file or directory
+maclab-85:~ delga017$ ls usr/bin | tee ls.txt | grep zip
+ls: usr/bin: No such file or directory
+maclab-85:~ delga017$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]

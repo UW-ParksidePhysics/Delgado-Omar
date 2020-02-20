@@ -1,0 +1,269 @@
+Last login: Thu Feb 20 14:05:08 on console
+maclab-85:~ delga017$ ps
+  PID TTY           TIME CMD
+ 6860 ttys000    0:00.01 -bash
+maclab-85:~ delga017$ ps x
+  PID   TT  STAT      TIME COMMAND
+ 6279   ??  S      0:00.03 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreaut
+ 6280   ??  S      0:00.92 /usr/sbin/cfprefsd agent
+ 6315   ??  S      0:00.41 /usr/libexec/UserEventAgent (Aqua)
+ 6318   ??  S      0:00.31 /usr/sbin/distnoted agent
+ 6319   ??  S      0:00.13 /usr/sbin/universalaccessd launchd -s
+ 6327   ??  S      0:00.19 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+ 6331   ??  S      0:12.92 /usr/libexec/lsd
+ 6333   ??  S      0:04.09 /usr/libexec/trustd --agent
+ 6340   ??  S      0:00.25 /usr/libexec/languageassetd --firstLogin
+ 6344   ??  S      0:06.11 /usr/libexec/secinitd
+ 6346   ??  S      0:00.14 /usr/libexec/secd
+ 6352   ??  S      0:00.22 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloud
+ 6355   ??  S      0:00.25 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservi
+ 6358   ??  S      0:00.28 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/account
+ 6359   ??  S      0:00.31 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Co
+ 6360   ??  S      0:00.17 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+ 6361   ??  S      0:01.15 /usr/libexec/nsurlsessiond
+ 6362   ??  S      0:00.02 /System/Library/Frameworks/Security.framework/Versions/A/Resources/Cloud
+ 6363   ??  S      0:00.11 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/
+ 6368   ??  S      0:00.05 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/I
+ 6369   ??  S      0:00.06 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAcc
+ 6371   ??  S      0:00.08 /usr/libexec/rapportd
+ 6373   ??  S      0:00.28 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+ 6374   ??  S      0:00.18 /usr/sbin/usernoted
+ 6375   ??  S      0:00.03 /usr/libexec/networkserviceproxy
+ 6376   ??  S      0:00.61 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/Ca
+ 6379   ??  S      0:00.07 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+ 6380   ??  S      0:00.03 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Res
+ 6381   ??  S      0:00.71 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/Notif
+ 6382   ??  S      0:00.01 /System/Library/CoreServices/APFSUserAgent
+ 6384   ??  S      0:00.22 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariB
+ 6387   ??  S      0:00.03 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Sup
+ 6388   ??  S      0:00.92 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A
+ 6389   ??  S      0:00.01 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Supp
+ 6390   ??  S      0:00.18 /usr/libexec/adprivacyd
+ 6397   ??  S      0:00.16 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/Core
+ 6413   ??  S      0:00.06 /System/Library/PrivateFrameworks/ContactsAgent.framework/Executables/Co
+ 6421   ??  Ss     0:00.19 /System/Library/PrivateFrameworks/CalendarNotification.framework/Version
+ 6423   ??  S      0:00.13 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/
+ 6428   ??  S      0:00.68 /usr/libexec/nsurlstoraged
+ 6432   ??  S      0:00.05 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHist
+ 6463   ??  S      0:00.13 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6464   ??  S      0:00.11 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6465   ??  S      0:00.12 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6466   ??  S      0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6468   ??  S      0:00.83 /System/Library/CoreServices/iconservicesagent
+ 6469   ??  S      0:00.10 /System/Library/CoreServices/pbs
+ 6470   ??  S      0:00.11 /usr/libexec/swcd
+ 6471   ??  S      0:00.06 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/S
+ 6474   ??  S      0:00.05 /usr/libexec/pboard
+ 6475   ??  S      0:00.13 /System/Library/CoreServices/sharedfilelistd
+ 6476   ??  S      0:00.09 /System/Library/CoreServices/talagent
+ 6477   ??  S      0:01.55 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.
+ 6478   ??  S      0:00.08 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCSer
+ 6482   ??  Ss     0:00.07 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMR
+ 6483   ??  S      0:00.18 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagen
+ 6484   ??  S      0:00.28 /usr/libexec/sharingd
+ 6485   ??  S      0:00.07 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useracti
+ 6486   ??  S      0:00.02 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediarem
+ 6487   ??  S      0:00.07 /usr/libexec/fmfd
+ 6488   ??  Ss     0:00.02 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMR
+ 6489   ??  Ss     0:00.06 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMR
+ 6491   ??  S      0:00.03 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Reso
+ 6494   ??  S      0:00.04 /System/Library/CoreServices/backgroundtaskmanagementagent
+ 6495   ??  S      0:00.10 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/a
+ 6512   ??  S      0:00.08 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLo
+ 6516   ??  S      0:02.43 /usr/libexec/pkd
+ 6518   ??  S      0:00.07 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resou
+ 6519   ??  Ss     0:00.07 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCom
+ 6521   ??  S      0:00.91 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resou
+ 6540   ??  Ss     0:00.08 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMR
+ 6626   ??  S      0:00.08 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/R
+ 6634   ??  S      0:00.15 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+ 6635   ??  S      0:00.18 /System/Library/CoreServices/diagnostics_agent
+ 6636   ??  S      0:00.23 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotos
+ 6638   ??  S      0:00.02 /System/Library/PrivateFrameworks/QuickLookThumbnailing.framework/Suppor
+ 6639   ??  S      0:00.10 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resou
+ 6648   ??  S      0:00.02 /System/Library/CoreServices/Software Update.app/Contents/Resources/soft
+ 6649   ??  S      0:00.08 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/
+ 6650   ??  Ss     0:00.34 /System/Library/Frameworks/MediaLibrary.framework/Versions/A/XPCServices
+ 6651   ??  S      0:00.07 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions
+ 6652   ??  S      0:00.06 /usr/libexec/siriknowledged
+ 6654   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A
+ 6655   ??  S      0:01.03 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCSe
+ 6657   ??  S      0:00.20 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistra
+ 6658   ??  Ss     0:00.07 /System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCService
+ 6659   ??  Ss     0:00.03 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.
+ 6665   ??  S      0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6666   ??  S      0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6671   ??  S      0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6672   ??  S      0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6676   ??  S      0:00.02 /System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/XPC
+ 6677   ??  S      0:02.94 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+ 6678   ??  S      0:00.37 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIS
+ 6679   ??  S      0:00.64 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+ 6684   ??  S      0:00.02 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+ 6689   ??  S      0:00.02 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPu
+ 6692   ??  SN     0:00.09 /usr/local/jamf/bin/jamfAgent
+ 6693   ??  S      0:00.03 /usr/libexec/dmd
+ 6694   ??  S      0:00.05 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklauncha
+ 6695   ??  S      0:00.17 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+ 6696   ??  S      0:00.07 /System/Library/Image Capture/Support/icdd
+ 6699   ??  S      0:00.09 /Library/Application Support/Pharos/Notify.app/Contents/MacOS/Notify
+ 6700   ??  S      0:00.06 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUI
+ 6701   ??  S      0:00.06 /usr/libexec/knowledge-agent
+ 6702   ??  S      0:00.05 /System/Library/CoreServices/cloudpaird
+ 6703   ??  S      0:01.24 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Cont
+ 6704   ??  S      0:00.08 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resou
+ 6706   ??  S      0:01.99 /Library/Application Support/Malwarebytes/Malwarebytes Endpoint Agent/Us
+ 6708   ??  S      0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Conten
+ 6709   ??  Ss     0:00.05 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCom
+ 6710   ??  Ss     0:00.12 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices
+ 6711   ??  S      0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+ 6713   ??  S      0:01.39 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+ 6716   ??  S      0:00.60 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+ 6717   ??  Ss     0:00.04 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCom
+ 6718   ??  Ss     0:00.05 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCom
+ 6719   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCSe
+ 6720   ??  Ss     0:00.01 /System/Library/PrivateFrameworks/login.framework/Versions/A/XPCServices
+ 6721   ??  S      0:00.06 /usr/libexec/videosubscriptionsd
+ 6724   ??  Ss     0:00.07 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCom
+ 6727   ??  S      0:00.26 /Library/Application Support/Adobe/Adobe Desktop Common/IPCBox/AdobeIPCB
+ 6728   ??  Ss     0:00.13 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.doc
+ 6729   ??  S      0:00.02 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHist
+ 6733   ??  S      0:02.90 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Cont
+ 6734   ??  S      0:00.01 SafeEjectGPUAgent
+ 6735   ??  S      0:00.02 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents
+ 6736   ??  Ss     0:00.03 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices
+ 6742   ??  S      0:03.23 /Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Deskto
+ 6744   ??  S      0:12.19 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A
+ 6746   ??  S      0:00.38 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Cont
+ 6747   ??  S      0:00.46 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Cont
+ 6749   ??  S      0:00.37 /Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Deskto
+ 6751   ??  S      0:00.67 /Library/Application Support/Adobe/Creative Cloud Libraries/CCLibrary.ap
+ 6755   ??  S      0:00.07 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.userage
+ 6759   ??  S      0:04.19 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Cont
+ 6762   ??  S      0:00.20 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/MacOS
+ 6763   ??  S      0:01.45 /Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXPr
+ 6764   ??  S      0:00.43 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/Frame
+ 6769   ??  Ss     0:00.14 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/PlugI
+ 6780   ??  S      0:00.39 /usr/libexec/studentd
+ 6784   ??  S      0:00.08 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resou
+ 6785   ??  S      0:00.29 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resou
+ 6786   ??  S      0:00.07 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterA
+ 6787   ??  Ss     0:00.06 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCSe
+ 6789   ??  S      0:00.01 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6790   ??  S      0:01.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6792   ??  Ss     0:00.03 /System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCService
+ 6793   ??  S      0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6794   ??  S      0:00.12 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6795   ??  S      0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6796   ??  S      0:00.04 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6797   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/FMClient.framework/Versions/A/XPCServi
+ 6798   ??  S      0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6799   ??  S      0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6805   ??  S      0:13.93 /Applications/Safari.app/Contents/MacOS/Safari
+ 6806   ??  S      0:00.13 /System/Library/StagedFrameworks/Safari/SafariShared.framework/XPCServic
+ 6808   ??  Ss     0:01.78 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCS
+ 6810   ??  Ss     0:00.21 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCom
+ 6811   ??  Ss     0:00.11 /Applications/Safari.app/Contents/XPCServices/com.apple.Safari.SandboxBr
+ 6812   ??  S      0:00.05 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Fram
+ 6813   ??  S      0:00.06 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariL
+ 6820   ??  S      0:02.99 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple
+ 6832   ??  Ss     0:00.09 /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/
+ 6834   ??  S      0:00.01 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCSe
+ 6835   ??  Ss     0:00.48 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCS
+ 6836   ??  S      0:00.69 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+ 6837   ??  S      0:00.10 /usr/libexec/keyboardservicesd
+ 6838   ??  S      0:00.39 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/S
+ 6839   ??  S      0:00.18 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6840   ??  S      0:00.04 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCSer
+ 6841   ??  S      0:00.04 /usr/libexec/silhouette
+ 6842   ??  Ss     0:00.59 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCS
+ 6844   ??  Ss     0:00.22 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCom
+ 6845   ??  Ss     0:00.11 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService
+ 6846   ??  Ss     0:38.51 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCS
+ 6847   ??  Ss     0:00.20 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCom
+ 6850   ??  Ss     0:00.30 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCom
+ 6852   ??  S      0:00.31 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appst
+ 6856   ??  Ss     0:00.14 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCSe
+ 6857   ??  S      0:03.12 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+ 6858   ??  Ss     0:00.11 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCom
+ 6866   ??  S      0:00.22 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/Spee
+ 6870   ??  S      0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6871   ??  S      0:09.47 /Applications/Preview.app/Contents/MacOS/Preview -psn_0_1122578
+ 6872   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A
+ 6873   ??  Ss     0:00.21 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCom
+ 6876   ??  S      0:00.07 /System/Library/CoreServices/ScopedBookmarkAgent
+ 6882   ??  S      0:00.41 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.
+ 7032   ??  S      0:00.06 /System/Library/Frameworks/QuickLook.framework/Resources/quicklookd.app/
+ 7034   ??  Ss     0:00.08 /System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/quic
+ 7035   ??  S      0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 7036   ??  S      0:00.13 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.fr
+ 6859 s000  Ss     0:00.02 login -pf delga017
+ 6860 s000  S      0:00.01 -bash
+ 7039 s000  R+     0:00.00 ps x
+maclab-85:~ delga017$ top
+maclab-85:~ delga017$ xlogo
+-bash: xlogo: command not found
+maclab-85:~ delga017$ xlogo &
+[1] 7105
+-bash: xlogo: command not found
+[1]+  Exit 127                xlogo
+maclab-85:~ delga017$ ps
+  PID TTY           TIME CMD
+ 6860 ttys000    0:00.02 -bash
+maclab-85:~ delga017$ ps
+  PID TTY           TIME CMD
+ 6860 ttys000    0:00.02 -bash
+maclab-85:~ delga017$ jobs
+maclab-85:~ delga017$ fg %1
+-bash: fg: %1: no such job
+maclab-85:~ delga017$ xlogo
+-bash: xlogo: command not found
+maclab-85:~ delga017$ bg %1
+-bash: bg: %1: no such job
+maclab-85:~ delga017$ xlogo &
+[1] 7110
+-bash: xlogo: command not found
+[1]+  Exit 127                xlogo
+maclab-85:~ delga017$ kill -l 7110
+-bash: kill: 7110: invalid signal specification
+maclab-85:~ delga017$ xlogo &
+[1] 7111
+-bash: xlogo: command not found
+[1]+  Exit 127                xlogo
+maclab-85:~ delga017$ kill -INT 7111
+-bash: kill: (7111) - No such process
+maclab-85:~ delga017$ xlogo
+-bash: xlogo: command not found
+maclab-85:~ delga017$ xlogo &
+[1] 7119
+-bash: xlogo: command not found
+[1]+  Exit 127                xlogo
+maclab-85:~ delga017$ kill -SIGINT 7111
+-bash: kill: (7111) - No such process
+maclab-85:~ delga017$ kill -l
+ 1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL
+ 5) SIGTRAP	 6) SIGABRT	 7) SIGEMT	 8) SIGFPE
+ 9) SIGKILL	10) SIGBUS	11) SIGSEGV	12) SIGSYS
+13) SIGPIPE	14) SIGALRM	15) SIGTERM	16) SIGURG
+17) SIGSTOP	18) SIGTSTP	19) SIGCONT	20) SIGCHLD
+21) SIGTTIN	22) SIGTTOU	23) SIGIO	24) SIGXCPU
+25) SIGXFSZ	26) SIGVTALRM	27) SIGPROF	28) SIGWINCH
+29) SIGINFO	30) SIGUSR1	31) SIGUSR2	
+maclab-85:~ delga017$ xlogo &
+[1] 7121
+-bash: xlogo: command not found
+[1]+  Exit 127                xlogo
+maclab-85:~ delga017$ xlogo &
+[1] 7122
+-bash: xlogo: command not found
+[1]+  Exit 127                xlogo
+maclab-85:~ delga017$ killall xlogo
+No matching processes belonging to you were found
+maclab-85:~ delga017$ killall xlogo &
+[1] 7124
+maclab-85:~ delga017$ No matching processes belonging to you were found
+
+[1]+  Exit 1                  killall xlogo
+maclab-85:~ delga017$ kill all
+-bash: kill: all: arguments must be process or job IDs
+maclab-85:~ delga017$ 
